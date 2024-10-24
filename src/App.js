@@ -3,6 +3,7 @@ import MuiButton from "./components/MuiButton";
 import MuiToggleButton from "./components/MuiToggleButton";
 import MuiTextField from "./components/MuiTextField";
 import MuiSelect from "./components/MuiSelect";
+import MuiRadio from "./components/MuiRadio";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
       <MuiTextField />
       <div className="mt-4">
         <MuiSelect />
+      </div>
+      <div className="mt-4">
+        <MuiRadio />
       </div>
     </div>
   );
