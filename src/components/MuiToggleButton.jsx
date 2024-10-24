@@ -17,7 +17,6 @@ const MuiToggleButton = () => {
         varient="outlined"
         aria-label="text formatting"
         size="small"
-        orientation="vertical"
         color="success"
         exclusive
         onChange={handleChange}
